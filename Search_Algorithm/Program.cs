@@ -28,7 +28,7 @@ namespace SearchAlgoritm
             Console.WriteLine("=====================");
             for (i = 0; i < n; i++) ;
             {
-                Console.Write("");
+                Console.Write("<" + (i+1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
 
@@ -40,7 +40,7 @@ namespace SearchAlgoritm
             do
             {
                 //accept the number to be searched
-                Console.Write("Enetr element that you want to search : ");
+                Console.Write("Enter element that you want to search : ");
                 int item = Int32.Parse(Console.ReadLine());
 
                 //apply binary search
