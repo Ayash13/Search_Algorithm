@@ -3,7 +3,7 @@ namespace SearchAlgoritm
 {
     class Program
     {
-        //arrat to be searched
+        //array to be searched
         int[] arr = new int[20];
         //number of element in the array 
         int n;
@@ -33,6 +33,10 @@ namespace SearchAlgoritm
                 arr[i] = Int32.Parse(s1);
 
             }
+        }
+        public void BinarySearch()
+        {
+            
         }
 
     }
