@@ -72,6 +72,10 @@ namespace SearchAlgoritm
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'y'));
         }
+        public void LinearResearch()
+        {
+
+        }
 
     }
 }
