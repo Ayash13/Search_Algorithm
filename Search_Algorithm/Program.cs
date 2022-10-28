@@ -74,7 +74,32 @@ namespace SearchAlgoritm
         }
         public void LinearResearch()
         {
+            char ch;
+            //search for number of comaprison
+            int ctr;
 
+            do
+            {
+                //accept the number to the searched
+                Console.Write("Enter element you want to search: ");
+                int item = Convert.ToInt32(Console.ReadLine());
+
+                ctr = 0;
+                for (i = 0; i < n; i++)
+                {
+                    ctr++;
+                    if (arr[i] == item)
+                    {
+                        Console.WriteLine("" + item.ToString() + "Found at position" + (i + 1).ToString());
+                        break;
+                    }
+                }
+                if (i == n)
+                    Console.WriteLine("" + item.ToString() + "Not found in the array");
+                Console.WriteLine("Number of comparison: " + ctr);
+                Console.Write("Continue to search (y/n): ");
+                ch = char.Parse(Console.ReadLine());
+            } while ((ch == 'y') || (ch == 'y'));
         }
 
     }
