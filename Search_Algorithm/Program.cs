@@ -101,6 +101,9 @@ namespace SearchAlgoritm
                 ch = char.Parse(Console.ReadLine());
             } while ((ch == 'y') || (ch == 'y'));
         }
-
+        static void Main(string[] args)
+        {
+            
+        }
     }
 }
