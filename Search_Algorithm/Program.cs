@@ -26,9 +26,9 @@ namespace SearchAlgoritm
             Console.WriteLine("=====================");
             Console.WriteLine(" Enter array element ");
             Console.WriteLine("=====================");
-            for (i = 0; i < n; i++) ;
+            for (i = 0; i < n; i++) 
             {
-                Console.Write("<" + (i+1) + ">");
+                Console.Write("<" + (i + 1) + ">");
                 string s1 = Console.ReadLine();
                 arr[i] = Int32.Parse(s1);
 
